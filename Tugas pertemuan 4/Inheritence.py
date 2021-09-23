@@ -12,9 +12,9 @@ class PasarOnline_Shopee(PasarOnline):
 class PasarOnline_Lazada(PasarOnline):
     pass
 
-Kanaya = PasarOnline("Toko : Kanaya", "Jenis dagang : Hijab")
-BeautyCan = PasarOnline_Shopee("Toko : BeautyCan", "Jenis dagang : Skincare dan Make up")
-AllCloth = PasarOnline_Lazada("Toko : AllCloth", "Jenis dagang : Baju dan Celana")
+Kanaya = PasarOnline(" Kanaya", " Hijab")
+BeautyCan = PasarOnline_Shopee("BeautyCan", "Skincare dan Make up")
+AllCloth = PasarOnline_Lazada("AllCloth", "Baju dan Celana")
 
 #Output
 print(Kanaya.nama_toko, Kanaya.jenis_dagangan)
